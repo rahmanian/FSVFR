@@ -1,0 +1,57 @@
+Chess (King-Rook vs. King-Pawn) data set
+
+1: Description.
+
+A data set representing a chees end game, where a pawn on a7 is one square   away from queening. The task is to determine if White can win or not.
+
+The description of attributes can be found in: Alen D. Shapiro (1983,1987), Structured Induction in Expert Systems, Addison-Wesley. 
+
+2: Type.			Classification	
+3: Origin.			Real world
+4: Instances.		3196
+5: Features.		36
+6: Classes.			2	
+7: Missing values.	No
+
+8: Header.
+
+@relation chess
+@attribute Bkblk {f,t}
+@attribute Bknwy {f,t}
+@attribute Bkon8 {f,t}
+@attribute Bkona {f,t}
+@attribute Bkspr {f,t}
+@attribute Bkxbq {f,t}
+@attribute Bkxcr {f,t}
+@attribute Bkxwp {f,t}
+@attribute Blxwp {f,t}
+@attribute Bxqsq {f,t}
+@attribute Cntxt {f,t}
+@attribute Dsopp {f,t}
+@attribute Dwipd {l,g}
+@attribute Hdchk {f,t}
+@attribute Katri5 {n,w,b}
+@attribute Mulch {f,t}
+@attribute Qxmsq {f,t}
+@attribute R2ar8 {f,t}
+@attribute Reskd {f,t}
+@attribute Reskr {f,t}
+@attribute Rimmx {f,t}
+@attribute Rkxwp {f,t}
+@attribute Rxmsq {f,t}
+@attribute Simpl {f,t}
+@attribute Skach {f,t}
+@attribute Skewr {f,t}
+@attribute Skrxp {f,t}
+@attribute Spcop {f,t}
+@attribute Stlmt {f,t}
+@attribute Thrsk {f,t}
+@attribute Wkcti {f,t}
+@attribute Wkna8 {f,t}
+@attribute Wknck {f,t}
+@attribute Wkovl {f,t}
+@attribute Wkpos {f,t}
+@attribute Wtoeg {n,t}
+@attribute Class {won,nowin}
+@inputs Bkblk, Bknwy, Bkon8, Bkona, Bkspr, Bkxbq, Bkxcr, Bkxwp, Blxwp, Bxqsq, Cntxt, Dsopp, Dwipd, Hdchk, Katri5, Mulch, Qxmsq, R2ar8, Reskd, Reskr, Rimmx, Rkxwp, Rxmsq, Simpl, Skach, Skewr, Skrxp, Spcop, Stlmt, Thrsk, Wkcti, Wkna8, Wknck, Wkovl, Wkpos, Wtoeg 
+@outputs Class
